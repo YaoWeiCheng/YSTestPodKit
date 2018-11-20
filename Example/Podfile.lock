@@ -1,5 +1,5 @@
 PODS:
-  - YSTestPodKit (0.1.0)
+  - YSTestPodKit (0.1.1)
 
 DEPENDENCIES:
   - YSTestPodKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YSTestPodKit: 59a5eb59be66a45b9c073c19441706f45b669c00
+  YSTestPodKit: 6f7093271e89ed7d999c6023214bb0329aa1e8ee
 
 PODFILE CHECKSUM: a43894db5f2c6ad812db0a63c0de53d4dfd57099
 

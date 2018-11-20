@@ -1,6 +1,6 @@
 {
   "name": "YSTestPodKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "YSTestPodKit is testDemo",
   "description": "YSTestPodKit is testDemo",
   "homepage": "https://github.com/YaoWeiCheng/YSTestPodKit",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/YaoWeiCheng/YSTestPodKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YSTestPodKit/Classes/**/*"
+  "source_files": "YSTestPodKit/Classes/CDD/**/*"
 }
