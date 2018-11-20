@@ -1,0 +1,6 @@
+framework module YSTestPodKit {
+  umbrella header "YSTestPodKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
