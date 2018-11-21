@@ -30,7 +30,7 @@ YSTestPodKit is testDemo
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YSTestPodKit/Classes/*'
+  s.source_files = 'YSTestPodKit/Classes/?'
   
   # s.resource_bundles = {
   #  'YSTestPodKit' => ['YSTestPodKit/Assets/*.png']
