@@ -40,7 +40,7 @@ YSTestPodKit is testDemo
   # s.frameworks = 'UIKit', 'MapKit'
   #  s.dependency 'AFNetworking', '~> 2.3'
   s.subspec 'Request' do |ss|
-      ss.source_files = 'YSTestPodKit/Request/RequestManger.{h,m}'
+      ss.source_files = 'YSTestPodKit/Request/**/*.{h,m}'
       ss.frameworks = 'Request'
     end
 end
