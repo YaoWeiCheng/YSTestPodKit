@@ -41,6 +41,6 @@ YSTestPodKit is testDemo
   #  s.dependency 'AFNetworking', '~> 2.3'
   s.subspec 'Request' do |ss|
       ss.source_files = 'YSTestPodKit/Request/**/*.{h,m}'
-      ss.frameworks = 'Request'
+      #    ss.frameworks = 'Request'
     end
 end
