@@ -44,6 +44,6 @@ YSTestPodKit is testDemo
   s.subspec 'RequestManger' do |ss|
       ss.source_files = 'YSTestPodKit/Request/**/*.{h,m}'
       #    ss.frameworks = 'Request'
-      ss.dependency 'YSTestPodKit/*.{h,m}'
+      ss.dependency 'YSTestPodKit/Classes/**/*.{h,m}'
     end
 end
