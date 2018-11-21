@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YSTestPodKit'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'YSTestPodKit is testDemo'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ YSTestPodKit is testDemo
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YSTestPodKit/Classes/**/*'
+  s.source_files = 'YSTestPodKit/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #  'YSTestPodKit' => ['YSTestPodKit/Assets/*.png']
@@ -38,5 +38,9 @@ YSTestPodKit is testDemo
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 2.3'
+  #  s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Request' do |ss|
+      ss.source_files = 'YSTestPodKit/Request/RequestManger.{h,m}'
+      ss.frameworks = 'Request'
+    end
 end
