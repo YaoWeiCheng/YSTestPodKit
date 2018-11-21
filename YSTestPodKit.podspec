@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YSTestPodKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'YSTestPodKit is testDemo'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ YSTestPodKit is testDemo
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YSTestPodKit/Classes/**/*'
+  s.source_files = 'YSTestPodKit/Classes/*'
   
   # s.resource_bundles = {
   #  'YSTestPodKit' => ['YSTestPodKit/Assets/*.png']
